@@ -1,0 +1,6 @@
+framework module Pods_YCImagePickerView {
+  umbrella header "Pods-YCImagePickerView-umbrella.h"
+
+  export *
+  module * { export * }
+}

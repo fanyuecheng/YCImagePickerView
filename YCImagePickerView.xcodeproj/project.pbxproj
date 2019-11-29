@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7193D990238FC6290030CE4A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7193D98F238FC6290030CE4A /* AppDelegate.m */; };
+		7193D996238FC6290030CE4A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7193D995238FC6290030CE4A /* ViewController.m */; };
+		7193D999238FC6290030CE4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7193D997238FC6290030CE4A /* Main.storyboard */; };
+		7193D99B238FC62B0030CE4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7193D99A238FC62B0030CE4A /* Assets.xcassets */; };
+		7193D99E238FC62B0030CE4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7193D99C238FC62B0030CE4A /* LaunchScreen.storyboard */; };
+		7193D9A1238FC62B0030CE4A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7193D9A0238FC62B0030CE4A /* main.m */; };
+		7193D9AA238FC82E0030CE4A /* YCImagePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7193D9A9238FC82E0030CE4A /* YCImagePickerView.m */; };
+		7193D9AD238FCADE0030CE4A /* YCImagePickerFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 7193D9AC238FCADE0030CE4A /* YCImagePickerFlowLayout.m */; };
+		7197853A2390C6F90039AFA6 /* YCAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = 719785392390C6F90039AFA6 /* YCAsset.m */; };
+		7197853D2390C8800039AFA6 /* YCImageReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7197853C2390C8800039AFA6 /* YCImageReusableView.m */; };
+		719785402390C8E70039AFA6 /* YCImagePickerCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7197853F2390C8E70039AFA6 /* YCImagePickerCollectionViewCell.m */; };
+		EE4EF6F2E3BBB2018625E184 /* Pods_YCImagePickerView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F2075E6C8623731CE202372 /* Pods_YCImagePickerView.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		365706135EE1A29252861996 /* Pods-YCImagePickerView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YCImagePickerView.release.xcconfig"; path = "Target Support Files/Pods-YCImagePickerView/Pods-YCImagePickerView.release.xcconfig"; sourceTree = "<group>"; };
+		3F2075E6C8623731CE202372 /* Pods_YCImagePickerView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YCImagePickerView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7193D98B238FC6290030CE4A /* YCImagePickerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YCImagePickerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7193D98E238FC6290030CE4A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7193D98F238FC6290030CE4A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7193D994238FC6290030CE4A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7193D995238FC6290030CE4A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7193D998238FC6290030CE4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7193D99A238FC62B0030CE4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7193D99D238FC62B0030CE4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7193D99F238FC62B0030CE4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7193D9A0238FC62B0030CE4A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7193D9A8238FC82E0030CE4A /* YCImagePickerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCImagePickerView.h; sourceTree = "<group>"; };
+		7193D9A9238FC82E0030CE4A /* YCImagePickerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCImagePickerView.m; sourceTree = "<group>"; };
+		7193D9AB238FCADE0030CE4A /* YCImagePickerFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCImagePickerFlowLayout.h; sourceTree = "<group>"; };
+		7193D9AC238FCADE0030CE4A /* YCImagePickerFlowLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCImagePickerFlowLayout.m; sourceTree = "<group>"; };
+		719785382390C6F90039AFA6 /* YCAsset.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCAsset.h; sourceTree = "<group>"; };
+		719785392390C6F90039AFA6 /* YCAsset.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCAsset.m; sourceTree = "<group>"; };
+		7197853B2390C8800039AFA6 /* YCImageReusableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCImageReusableView.h; sourceTree = "<group>"; };
+		7197853C2390C8800039AFA6 /* YCImageReusableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCImageReusableView.m; sourceTree = "<group>"; };
+		7197853E2390C8E70039AFA6 /* YCImagePickerCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCImagePickerCollectionViewCell.h; sourceTree = "<group>"; };
+		7197853F2390C8E70039AFA6 /* YCImagePickerCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCImagePickerCollectionViewCell.m; sourceTree = "<group>"; };
+		8D11E46C39DB5E05DC203F22 /* Pods-YCImagePickerView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YCImagePickerView.debug.xcconfig"; path = "Target Support Files/Pods-YCImagePickerView/Pods-YCImagePickerView.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7193D988238FC6290030CE4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE4EF6F2E3BBB2018625E184 /* Pods_YCImagePickerView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F103C44454A6C9CA9708B40 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F2075E6C8623731CE202372 /* Pods_YCImagePickerView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7193D982238FC6290030CE4A = {
+			isa = PBXGroup;
+			children = (
+				7193D98D238FC6290030CE4A /* YCImagePickerView */,
+				7193D98C238FC6290030CE4A /* Products */,
+				BF48052218FB5823EE72384A /* Pods */,
+				3F103C44454A6C9CA9708B40 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7193D98C238FC6290030CE4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7193D98B238FC6290030CE4A /* YCImagePickerView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7193D98D238FC6290030CE4A /* YCImagePickerView */ = {
+			isa = PBXGroup;
+			children = (
+				7193D9A7238FC8100030CE4A /* Resource */,
+				7193D98E238FC6290030CE4A /* AppDelegate.h */,
+				7193D98F238FC6290030CE4A /* AppDelegate.m */,
+				7193D994238FC6290030CE4A /* ViewController.h */,
+				7193D995238FC6290030CE4A /* ViewController.m */,
+				7193D997238FC6290030CE4A /* Main.storyboard */,
+				7193D99A238FC62B0030CE4A /* Assets.xcassets */,
+				7193D99C238FC62B0030CE4A /* LaunchScreen.storyboard */,
+				7193D99F238FC62B0030CE4A /* Info.plist */,
+				7193D9A0238FC62B0030CE4A /* main.m */,
+			);
+			path = YCImagePickerView;
+			sourceTree = "<group>";
+		};
+		7193D9A7238FC8100030CE4A /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				719785382390C6F90039AFA6 /* YCAsset.h */,
+				719785392390C6F90039AFA6 /* YCAsset.m */,
+				7193D9A8238FC82E0030CE4A /* YCImagePickerView.h */,
+				7193D9A9238FC82E0030CE4A /* YCImagePickerView.m */,
+				7197853B2390C8800039AFA6 /* YCImageReusableView.h */,
+				7197853C2390C8800039AFA6 /* YCImageReusableView.m */,
+				7193D9AB238FCADE0030CE4A /* YCImagePickerFlowLayout.h */,
+				7193D9AC238FCADE0030CE4A /* YCImagePickerFlowLayout.m */,
+				7197853E2390C8E70039AFA6 /* YCImagePickerCollectionViewCell.h */,
+				7197853F2390C8E70039AFA6 /* YCImagePickerCollectionViewCell.m */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		BF48052218FB5823EE72384A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8D11E46C39DB5E05DC203F22 /* Pods-YCImagePickerView.debug.xcconfig */,
+				365706135EE1A29252861996 /* Pods-YCImagePickerView.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7193D98A238FC6290030CE4A /* YCImagePickerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7193D9A4238FC62B0030CE4A /* Build configuration list for PBXNativeTarget "YCImagePickerView" */;
+			buildPhases = (
+				660148FB7C9BD8B4371B0EB9 /* [CP] Check Pods Manifest.lock */,
+				7193D987238FC6290030CE4A /* Sources */,
+				7193D988238FC6290030CE4A /* Frameworks */,
+				7193D989238FC6290030CE4A /* Resources */,
+				E14DBA50BFE9E09033D9C0DB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YCImagePickerView;
+			productName = YCImagePickerView;
+			productReference = 7193D98B238FC6290030CE4A /* YCImagePickerView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7193D983238FC6290030CE4A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = Fancy;
+				TargetAttributes = {
+					7193D98A238FC6290030CE4A = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 7193D986238FC6290030CE4A /* Build configuration list for PBXProject "YCImagePickerView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7193D982238FC6290030CE4A;
+			productRefGroup = 7193D98C238FC6290030CE4A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7193D98A238FC6290030CE4A /* YCImagePickerView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7193D989238FC6290030CE4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7193D99E238FC62B0030CE4A /* LaunchScreen.storyboard in Resources */,
+				7193D99B238FC62B0030CE4A /* Assets.xcassets in Resources */,
+				7193D999238FC6290030CE4A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		660148FB7C9BD8B4371B0EB9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YCImagePickerView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E14DBA50BFE9E09033D9C0DB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YCImagePickerView/Pods-YCImagePickerView-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YCImagePickerView/Pods-YCImagePickerView-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YCImagePickerView/Pods-YCImagePickerView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7193D987238FC6290030CE4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				719785402390C8E70039AFA6 /* YCImagePickerCollectionViewCell.m in Sources */,
+				7193D996238FC6290030CE4A /* ViewController.m in Sources */,
+				7193D990238FC6290030CE4A /* AppDelegate.m in Sources */,
+				7197853A2390C6F90039AFA6 /* YCAsset.m in Sources */,
+				7193D9AA238FC82E0030CE4A /* YCImagePickerView.m in Sources */,
+				7193D9A1238FC62B0030CE4A /* main.m in Sources */,
+				7197853D2390C8800039AFA6 /* YCImageReusableView.m in Sources */,
+				7193D9AD238FCADE0030CE4A /* YCImagePickerFlowLayout.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7193D997238FC6290030CE4A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7193D998238FC6290030CE4A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7193D99C238FC62B0030CE4A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7193D99D238FC62B0030CE4A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7193D9A2238FC62B0030CE4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7193D9A3238FC62B0030CE4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7193D9A5238FC62B0030CE4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D11E46C39DB5E05DC203F22 /* Pods-YCImagePickerView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YCImagePickerView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fancy.YCImagePickerView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		7193D9A6238FC62B0030CE4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 365706135EE1A29252861996 /* Pods-YCImagePickerView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YCImagePickerView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fancy.YCImagePickerView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7193D986238FC6290030CE4A /* Build configuration list for PBXProject "YCImagePickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7193D9A2238FC62B0030CE4A /* Debug */,
+				7193D9A3238FC62B0030CE4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7193D9A4238FC62B0030CE4A /* Build configuration list for PBXNativeTarget "YCImagePickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7193D9A5238FC62B0030CE4A /* Debug */,
+				7193D9A6238FC62B0030CE4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7193D983238FC6290030CE4A /* Project object */;
+}
